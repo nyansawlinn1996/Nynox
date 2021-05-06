@@ -13,8 +13,18 @@ body {
   background: #fff;
   color: #444;
   font-family: "Open Sans", sans-serif;
+  background: linear-gradient(70deg, #e6e6e6, #f7f7f7);
+  color: #514B64;
+  min-height: 100vh;
 }
 
+code {
+  background: #fff;
+  padding: 0.2rem;
+  border-radius: 0.2rem;
+  margin: 0 0.3rem;
+}
+s
 a {
   color: #1bb1dc;
   transition: 0.5s;
@@ -199,8 +209,10 @@ h6 {
 
 #header .logo img {
   padding: 0;
-  margin: 7px 0;
-  max-height: 26px;
+  margin: 6px 0;
+  max-height: 40px;
+  max-width: 40px;
+  margin:0px 9px 0px 5px;
 }
 
 .main-pages {
