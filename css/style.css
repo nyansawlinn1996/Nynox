@@ -28,10 +28,9 @@ a:focus {
   text-decoration: none;
 }
 
-p.p{
+p {
   padding: 0;
   margin: 0 0 30px 0;
-  text-align: justify;
 }
 
 h1,
@@ -220,15 +219,15 @@ h6 {
 }
 
 #intro .intro-info h2 {
-  color: #19a0ee;
-  font-size: 32px;
+  color: #086A87;
+  margin-bottom: 10px;
+  font-size: 38px;
   font-weight: 500;
-  margin-top:50px;
-  margin-left:400px;
+
 }
 
 #intro .intro-info h2 span {
-  color: #19a0ee;
+  color: #086A87;
 
  }
 
