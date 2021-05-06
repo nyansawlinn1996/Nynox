@@ -223,7 +223,7 @@ h6 {
   margin-bottom: 10px;
   font-size: 38px;
   font-weight: 500;
-   
+
 }
 
 #intro .intro-info h2 span {
@@ -257,11 +257,6 @@ h6 {
 --------------------------------------------------------------*/
 
 /* Desktop Navigation */
-
-.main-nav {
-  /* Drop Down */
-  /* Deep Drop Down */
-}
 
 .main-nav,
 .main-nav * {
@@ -1604,7 +1599,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
 /* Add Animation */
 @-webkit-keyframes animatetop {
-  from {top:-300px; opacity:0} 
+  from {top:-300px; opacity:0}
   to {top:0; opacity:1}
 }
 
@@ -1641,4 +1636,3 @@ body {font-family: Arial, Helvetica, sans-serif;}
   background-color: #5cb85c;
   color: white;
 }
-
