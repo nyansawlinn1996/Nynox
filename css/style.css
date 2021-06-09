@@ -12,18 +12,18 @@
 body {
   background: #fff;
   color: #444;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", "sans-serif";
 }
 
 a {
-  color: #1bb1dc;
+  color: #19a0ee;
   transition: 0.5s;
 }
 
 a:hover,
 a:active,
 a:focus {
-  color: #0a98c0;
+  color: #19a0ee;
   outline: none;
   text-decoration: none;
 }
@@ -40,7 +40,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", "sans-serif";
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
@@ -52,7 +52,7 @@ h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #1bb1dc;
+  background: #19a0ee;
   color: #fff;
   width: 44px;
   height: 44px;
@@ -90,7 +90,7 @@ h6 {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #f2f2f2;
-  border-top: 6px solid #1bb1dc;
+  border-top: 6px solid #19a0ee;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -125,7 +125,7 @@ h6 {
 /*--------------------------------------------------------------
 # Top Bar
 --------------------------------------------------------------*/
-
+/*
 #topbar {
   padding: 0 0 10px 0;
   font-size: 14px;
@@ -150,7 +150,7 @@ h6 {
 #topbar .social-links a:first-child {
   border-left: 0;
 }
-
+ */
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -167,6 +167,7 @@ h6 {
   right: 0;
   transition: all 0.5s;
   z-index: 997;
+  font-family: "Open Sans", "sans-serif";
 }
 
 #header.header-scrolled,
@@ -188,8 +189,9 @@ h6 {
   padding: 0;
   line-height: 1;
   font-weight: 400;
-  letter-spacing: 3px;
+  letter-spacing: 2.5px;
   text-transform: uppercase;
+  font-family: "Open Sans", "sans-serif";
 }
 
 #header .logo h1 a,
@@ -287,6 +289,7 @@ h6 {
   position: relative;
   white-space: nowrap;
   float: left;
+
  }
 
 .main-nav a {
@@ -305,7 +308,7 @@ h6 {
 .main-nav a:hover,
 .main-nav .active > a,
 .main-nav li:hover > a {
-  color: #1bb1dc;
+  color: #19a0ee;
   text-decoration: none;
 }
 
@@ -339,13 +342,13 @@ h6 {
   font-size: 14px;
   font-weight: 500;
   text-transform: none;
-  color: #065e77;
+  color: #19a0ee;
 }
 
 .main-nav .drop-down ul a:hover,
 .main-nav .drop-down ul .active > a,
 .main-nav .drop-down ul li:hover > a {
-  color: #1bb1dc;
+  color: #19a0ee;
 }
 
 .main-nav .drop-down > a:after {
