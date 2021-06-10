@@ -31,7 +31,12 @@ a:focus {
 p.p{
   padding: 0;
   margin: 0 0 30px 0;
+<<<<<<< Updated upstream
   text-align: justify;
+=======
+  text-indent: 50px;
+  text-align:justify;
+>>>>>>> Stashed changes
 }
 
 h1,
